@@ -1,1 +1,1 @@
-# happy-birthday.github.io
+# happybirthday
