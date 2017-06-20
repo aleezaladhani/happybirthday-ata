@@ -1,0 +1,21 @@
+{
+  "name": "happybirthday-ata",
+  "version": "1.0.0",
+  "description": "Celebrating Ata's birthday with friends around the world",
+  "main": "server.js",
+  "scripts": {
+    "test": "test script",
+    "dev": "",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleezaladhani/happybirthday-ata.git"
+  },
+  "author": "Aleeza Ladhani <aleeza.ladhani@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleezaladhani/happybirthday-ata/issues"
+  },
+  "homepage": "https://github.com/aleezaladhani/happybirthday-ata#readme"
+}
