@@ -1,0 +1,21 @@
+{
+  "name": "happybirthday-ata",
+  "description": "Celebrating Ata's birthday with friends around the world",
+  "main": "(index.html)",
+  "authors": [
+    "Aleeza Ladhani <aleeza.ladhani@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/aleezaladhani/happybirthday-ata",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

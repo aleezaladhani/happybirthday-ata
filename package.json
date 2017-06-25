@@ -2,11 +2,10 @@
   "name": "happybirthday-ata",
   "version": "1.0.0",
   "description": "Celebrating Ata's birthday with friends around the world",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "test script",
-    "dev": "",
-    "start": "node server.js"
+    "dev": ""
   },
   "repository": {
     "type": "git",
