@@ -187,21 +187,25 @@ body {
 #top-left {
   left: 80%;
   top: -30%;
+  box-shadow: 3px 3px 3px grey
 }
 
 #top-right {
   right: 80%;
   top: -10%;
+  box-shadow: -3px 3px 3px grey
 }
 
 #bottom-left {
   left: 80%;
   bottom: -20%;
+  box-shadow: 3px 3px 3px grey
 }
 
 #bottom-right {
   right: 80%;
   bottom: -20%;
+  box-shadow: -3px 3px 3px grey
 }
 
 .audio-controls {
