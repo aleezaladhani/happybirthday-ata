@@ -43,8 +43,9 @@ body {
   justify-content: center;
 }
 
-#row3 {
-  justify-content: flex-end;
+#row3, #row1 {
+  justify-content: space-around;
+    margin-left: 0.1em;
 }
 
 .balloon-wrapper {
