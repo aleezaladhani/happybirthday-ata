@@ -45,7 +45,11 @@ body {
 
 #row3, #row1 {
   justify-content: space-around;
-    margin-left: 0.1em;
+  margin-left: 0.1em;
+}
+
+@media(min-width: 999px){
+  #row2 {justify-content: space-between; margin-left: 0.1em;}
 }
 
 .balloon-wrapper {
