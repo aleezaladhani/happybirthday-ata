@@ -34,6 +34,7 @@ body {
   z-index: 999;
   display: flex;
   transform: translate(-50%, -50%);
+  transition: 500ms ease-in-out;
 }
 
 .row {
@@ -58,6 +59,7 @@ body {
   margin: 0.3em;
 
   position: relative;
+  transition: 500ms ease-in-out;
   animation: balloons 5s ease-in-out infinite;
   display: inline-block;
 
@@ -223,6 +225,12 @@ body {
   left: 0;
   margin-bottom: 0.35em;
   margin-left: 0.5em;
+  z-index: 1;
+  transition: 500ms ease-in-out;
+}
+
+.audio-controls:focus {
+  outline: none;
 }
 
 @media(min-width: 999px) and (max-width: 1110px) {
@@ -381,8 +389,9 @@ body {
   bottom: 0;
   width: 100%;
   margin-bottom: 1em;
+  transition: 500ms ease-in-out;
 }
 
 #footer > h3 {
-  text-align: center
+  text-align: center;
 }

@@ -8,7 +8,7 @@ $('.balloon-wrapper').click(function(e) {
     $('#'+balloonID+' .face').css({'z-index': '1003', 'opacity': '0.8'});
   }, 0);
 
-  $('.row > div:not(#'+balloonID+'), .main-message, #footer').css('opacity', '0.4');
+  $('.row > div:not(#'+balloonID+'), .main-message, .audio-controls, #footer').css('opacity', '0.4');
 })
 
 $('.audio-controls').click(function(e) {
@@ -25,11 +25,11 @@ $(document).click(function(e) {
       $('.note').hide();
       $('.balloon-wrapper').css('z-index', '998');
       $('.face').css('opacity', '0.4');
-      $('.main-message, #footer, .balloon-wrapper').css('opacity', '1');
+      $('.main-message, .audio-controls, #footer, .balloon-wrapper').css('opacity', '1');
     }
     if ($(e.target).attr('class') == 'face') {
       balloonID = $('#'+e.target.id+'').parent().attr('id');
-      $('.row > div:not(#'+balloonID+'), .main-message, #footer').css('opacity', '0.4');
+      $('.row > div:not(#'+balloonID+'), .main-message, .audio-controls, #footer').css('opacity', '0.4');
     }
   }
 })
